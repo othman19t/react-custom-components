@@ -36,6 +36,9 @@ const Form = () => {
         />
         <Btn type="submit">Submit</Btn>
       </form>
+      <Btn type="submit" onClickEvent={() => console.log("clicked")}>
+        Submit
+      </Btn>
     </div>
   );
 };

@@ -11,6 +11,7 @@ function App() {
       <Images />
       <Par parSecondClassName="secondClassName">this is the text</Par>
       <H1 h1SecondClassName="secondClassName">this is the text</H1>
+      <Form />
     </div>
   );
 }
