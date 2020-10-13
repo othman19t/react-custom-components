@@ -109,3 +109,7 @@ html {
   font-size: 1.6rem;
   height: 3rem;
   width: 100%; }
+
+.custom__par {
+  font-size: 1.6rem;
+  color: #000; }
