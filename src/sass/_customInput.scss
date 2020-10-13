@@ -1,0 +1,49 @@
+.input__con {
+  height: 8rem;
+}
+.custom_input {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  border-bottom: 1px solid $black;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom_input:hover {
+  border: 1px solid $black;
+}
+.custom_input:focus {
+  outline: none;
+
+  /* box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.507); */
+}
+
+.err {
+  font-size: 1.6rem;
+  color: $danger;
+  text-align: left;
+  margin-left: 1rem;
+  margin-bottom: 0rem;
+}
+.inputTxt {
+  font-size: 1.6rem;
+  color: $medium;
+  text-align: left;
+  margin-left: 1rem;
+}
+.required {
+  color: $danger;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: 0rem;
+  display: flex;
+  align-self: start;
+  margin-bottom: -1.5rem;
+  position: relative;
+  z-index: 1;
+}

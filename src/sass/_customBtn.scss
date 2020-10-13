@@ -1,0 +1,19 @@
+.btn__con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  font-size: 1.8rem;
+  width: 30rem;
+  height: 4rem;
+  background: $primary;
+  border: none;
+  -webkit-box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.24);
+  margin-top: 2rem;
+  cursor: pointer;
+}

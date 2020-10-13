@@ -1,0 +1,24 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  // @include respond(wid-1200) {
+  //   font-size: 55%;
+  // }
+}
+.App {
+  text-align: center;
+  padding-top: 10rem;
+  width: 80vw;
+  margin-left: 10vw;
+}
+@import "vars";
+@import "mixin";
+@import "customInput";
+@import "customTextArea";
+@import "customBtn";

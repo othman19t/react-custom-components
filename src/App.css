@@ -1,38 +1,98 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
 .App {
   text-align: center;
-}
+  padding-top: 10rem;
+  width: 80vw;
+  margin-left: 10vw; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.input__con {
+  height: 8rem; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.custom_input {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  font-family: "Roboto", sans-serif; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.custom_input:hover {
+  border: 1px solid #000; }
+
+.custom_input:focus {
+  outline: none;
+  /* box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.507); */ }
+
+.err {
+  font-size: 1.6rem;
+  color: #ff5252;
+  text-align: left;
+  margin-left: 1rem;
+  margin-bottom: 0rem; }
+
+.inputTxt {
+  font-size: 1.6rem;
+  color: #6e6969;
+  text-align: left;
+  margin-left: 1rem; }
+
+.required {
+  color: #ff5252;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: 0rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-self: start;
+  margin-bottom: -1.5rem;
+  position: relative;
+  z-index: 1; }
+
+.textarea__con {
+  height: 16rem; }
+
+.custom_textArea {
+  width: 100%;
+  height: 10rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem; }
+
+.custom_textArea:hover {
+  border: 1px solid #000; }
+
+.custom_textArea:focus {
+  outline: none; }
+
+.btn__con {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  width: 100%; }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.btn {
+  font-size: 1.8rem;
+  width: 30rem;
+  height: 4rem;
+  background: #fc5c65;
+  border: none;
+  -webkit-box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.24);
+  margin-top: 2rem;
+  cursor: pointer; }
