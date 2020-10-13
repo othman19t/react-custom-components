@@ -14,11 +14,12 @@ html {
 .App {
   text-align: center;
   padding-top: 10rem;
-  width: 80vw;
-  margin-left: 10vw;
+  width: 100vw;
+  // margin-left: 10vw;
 }
 @import "vars";
 @import "mixin";
 @import "customInput";
 @import "customTextArea";
 @import "customBtn";
+@import "customImg";
